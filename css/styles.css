@@ -65,12 +65,13 @@ img {
 .section-page-header {
   width: 100%;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .section-page-header .container {
   display: flex;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
   /*width: 1158px;
   padding: 0 15px;
   margin: 0 auto;*/
@@ -464,6 +465,10 @@ img {
   text-align: center;
 }
 
+.icon {
+  fill: #f4f4fd;
+}
+
 .member-social-link {
   width: 40px;
   height: 40px;
@@ -483,6 +488,7 @@ img {
 .section-page-footer {
   width: 100%;
   background-color: var(--main-color);
+  align-items: baseline;
 }
 
 .section-page-footer .container {
@@ -536,11 +542,12 @@ img {
 
 .footer-solial-media-header {
   display: block;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 

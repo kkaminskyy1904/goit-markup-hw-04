@@ -353,6 +353,11 @@ img {
 }
 */
 
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -371,9 +376,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.overlay:hover{
+.overlay:hover, .overlay:focus{
   transform: translateY(0%);
-}*/
+}
 
 .activity-card {
   position: relative;
@@ -382,24 +387,12 @@ img {
     transform: translateY(0%);
 }
 
-.section-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.activity-link {
-  
-}
-
-/*.activity-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}*/
-
-.activity-card:hover,
-.activity-card:focus {
+.activity-link:hover,
+.activity-link:focus
+ {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .activity-card:hover .overlay,

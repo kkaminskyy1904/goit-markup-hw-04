@@ -380,6 +380,10 @@ img {
   transform: translateY(0%);
 }
 
+.activity-link{
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .activity-card {
   position: relative;
   overflow: hidden;

@@ -371,15 +371,10 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.overlay:hover{
-  transform: translateY(0%);
-}*/
 
 .activity-card {
   position: relative;
   overflow: hidden;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(0%);
 }
 
 .section-portfolio {
@@ -388,24 +383,27 @@ img {
 }
 
 .activity-link {
-  
-}
-
-/*.activity-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}*/
-
-.activity-card:hover,
-.activity-card:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.activity-card:hover .overlay,
-.activity-card:focus .overlay {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0%);
 }
+
+/*.activity-link:hover,
+.activity-link:focus*/ 
+.overlay:focus,
+.overlay.hover
+{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+
+/*.activity-link:hover .overlay,
+.activity-link:focus .overlay
+
+
+{
+  
+}*/
 
 .activity-item {
   border: 1px solid #e7e9fc;

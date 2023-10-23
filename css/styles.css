@@ -355,7 +355,8 @@ img {
 
 .activity-card {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
+  
 }
 
 .overlay {
@@ -511,12 +512,12 @@ img {
 .section-page-footer {
   width: 100%;
   background-color: var(--main-color);
-  
+  align-items: baseline;
 }
 
 .section-page-footer .container {
   display: flex;
-  align-items: baseline;
+
   padding: 100px 0;
 }
 
@@ -563,7 +564,7 @@ img {
   align-items: center;
 }
 
-.footer-solial-media-header {
+.footer-social-media-header {
   display: block;
   margin-top: 0;
   margin-bottom: 16px;
@@ -580,8 +581,19 @@ img {
   margin-top: 16px;
 }
 
-.member-social-link:focus,
-.member-social-link:hover {
+.member-social-link-footer {
+  width: 40px;
+  height: 40px;
+  background-color: var(--regular-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.member-social-link-footer:hover,
+.member-social-link-footer:focus {
   background-color: #31d0aa;
 }
 

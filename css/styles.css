@@ -517,7 +517,7 @@ img {
 
 .section-page-footer .container {
   display: flex;
-
+  align-items: baseline;
   padding: 100px 0;
 }
 
